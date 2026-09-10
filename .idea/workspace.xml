@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc991f9b-a337-468b-9d68-0f5be9e10640" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\tools\apache-maven-3.8.8" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2shovja9VmRIOkYS8xxUhw60KIF" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnimalTest.executor": "Run",
+    "Application.ArrayTest1.executor": "Run",
+    "Application.ArrayTest2.executor": "Run",
+    "Application.ArrayTest3.executor": "Run",
+    "Application.ArrayTest4.executor": "Run",
+    "Application.ArrayTest5.executor": "Run",
+    "Application.ArrayTest6.executor": "Run",
+    "Application.ArrayTest7.executor": "Run",
+    "Application.ArrayTest8.executor": "Run",
+    "Application.CatTest.executor": "Run",
+    "Application.CycleTest.executor": "Run",
+    "Application.DoWhileTest.executor": "Run",
+    "Application.DoWhileTest1.executor": "Run",
+    "Application.EatableTest.executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
+    "Application.ForTest.executor": "Run",
+    "Application.ForTest1.executor": "Run",
+    "Application.ForTest2.executor": "Run",
+    "Application.ForTest3.executor": "Run",
+    "Application.ForTest4.executor": "Run",
+    "Application.ForTest5.executor": "Run",
+    "Application.IfElseTest1.executor": "Run",
+    "Application.IfElseTest2.executor": "Run",
+    "Application.IfElseTest3.executor": "Run",
+    "Application.IfElseTest4.executor": "Run",
+    "Application.IfElseTest5.executor": "Run",
+    "Application.InterfaceDemo.executor": "Run",
+    "Application.InterfaceTest.executor": "Run",
+    "Application.MethodTest.executor": "Run",
+    "Application.MyRunnable.executor": "Debug",
+    "Application.PersonTest.executor": "Run",
+    "Application.PersonTest1.executor": "Run",
+    "Application.PhoneTest.executor": "Run",
+    "Application.SingletonTest.executor": "Run",
+    "Application.Something2.executor": "Run",
+    "Application.StudentTest.executor": "Run",
+    "Application.SwitchCaseTest.executor": "Run",
+    "Application.SwitchCaseTest1.executor": "Run",
+    "Application.TemplateTest.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestAnonymous.executor": "Debug",
+    "Application.TestC.executor": "Run",
+    "Application.TestCat.executor": "Run",
+    "Application.TestFinal.executor": "Run",
+    "Application.TestInterface.executor": "Run",
+    "Application.TestOverride.executor": "Run",
+    "Application.TestPayment.executor": "Run",
+    "Application.TestPerson.executor": "Run",
+    "Application.TestPet.executor": "Run",
+    "Application.TestSingleton2.executor": "Run",
+    "Application.TestStaticMethod.executor": "Run",
+    "Application.TestStringTools.executor": "Run",
+    "Application.TestStudent.executor": "Run",
+    "Application.TestTypeC.executor": "Run",
+    "Application.ThreadApi2.executor": "Run",
+    "Application.ThreadDemo.executor": "Debug",
+    "Application.TreadApi1.executor": "Run",
+    "Application.TriAngleTest.executor": "Run",
+    "Application.USBTest.executor": "Run",
+    "Application.UserInterface.executor": "Run",
+    "Application.VariableTest1.executor": "Run",
+    "Application.VariableTest2.executor": "Run",
+    "Application.WhileTest.executor": "Run",
+    "Application.WhileTest1.executor": "Run",
+    "Application.WhileTest2.executor": "Debug",
+    "Application.ZanTest.executor": "Run",
+    "Application.com.atguigu.chapter03_OOP.oop.practice4.EmployeeTest.executor": "Run",
+    "Application.com.atguigu.chapter03_OOP.practice11.PersonTest.executor": "Run",
+    "Application.com.atguigu.chapter03_OOP.practice21.TestPayment.executor": "Run",
+    "Application.overloadTest.executor": "Run",
+    "JUnit.TestSingleton.test1.executor": "Run",
+    "JUnit.TestSingleton.test2.executor": "Run",
+    "JUnit.TestSingleton.test3.executor": "Run",
+    "JUnit.TestSingleton.test4.executor": "Run",
+    "JUnit.TestSingleton.test6.executor": "Run",
+    "JUnit.com.atguigu.chapter03_OOP.oop.practice8 in JavaReview.executor": "Run",
+    "JUnit.junitTest.testSomething.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/IdeaProjects/JavaNote/JavaReview",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/atguigu/chapter03_OOP/practice9" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/atguigu/chapter03_OOP/practice8" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/atguigu/chapter03_OOP/practice7" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/atguigu/chapter03_OOP/practice2" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/atguigu/chapter03_OOP/practice1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.chapter03_OOP.oop.practice4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.chapter03_OOP.oop.practice4" />
+      <recent name="com.atguigu.chap02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.junitTest.testSomething">
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter03_OOP1.practice14.AnimalTest" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter03_OOP1.practice14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter03_OOP1.practice14.PersonTest" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter03_OOP1.practice14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter03_OOP1.practice14.PersonTest1" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter03_OOP1.practice14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter03_OOP1.practice18.TemplateTest" />
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter03_OOP1.practice18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="junitTest.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bryea.chapter03_OOP3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bryea.chapter03_OOP3" />
+      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter03_OOP3.junitTest" />
+      <option name="METHOD_NAME" value="testSomething" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.junitTest.testSomething" />
+        <item itemvalue="Application.PersonTest1" />
+        <item itemvalue="Application.AnimalTest" />
+        <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.TemplateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc991f9b-a337-468b-9d68-0f5be9e10640" name="Changes" comment="" />
+      <created>1738917402164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738917402164</updated>
+      <workItem from="1738917403229" duration="12814000" />
+      <workItem from="1739410274919" duration="319000" />
+      <workItem from="1740360147695" duration="1770000" />
+      <workItem from="1740551744663" duration="734000" />
+      <workItem from="1744715216156" duration="5781000" />
+      <workItem from="1745043838133" duration="10552000" />
+      <workItem from="1747062794382" duration="862000" />
+      <workItem from="1747099817027" duration="121000" />
+      <workItem from="1761231640608" duration="658000" />
+      <workItem from="1778160506315" duration="6927000" />
+      <workItem from="1778236942440" duration="6106000" />
+      <workItem from="1778312192972" duration="11201000" />
+      <workItem from="1778546021023" duration="8597000" />
+      <workItem from="1778746111412" duration="8834000" />
+      <workItem from="1779008218347" duration="11953000" />
+      <workItem from="1779078172446" duration="4776000" />
+      <workItem from="1780149580929" duration="48926000" />
+      <workItem from="1783508022226" duration="69063000" />
+      <workItem from="1784350513075" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

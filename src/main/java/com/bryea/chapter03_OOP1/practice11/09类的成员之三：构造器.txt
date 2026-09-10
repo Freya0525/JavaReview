@@ -1,0 +1,48 @@
+09类的成员之三：构造器
+我们new完对象时，所有成员变量都是默认值，如果我们需要赋别的值，
+需要挨个为它们再赋值，太麻烦了。我们能不能在new对象时，直接为
+当前对象的某个或所有成员变量直接赋值呢？
+    - 可以，所以java我们提供了构造器(constructor)，也称为构造方法。
+
+构造器的语法格式：
+[修饰符] class 类名{
+    [修饰符]构造器名(){
+    //实例初始化代码
+    }
+    [修饰符] 构造器名(参数列表){
+    //实例初始化代码
+    }
+}
+
+说明：
+1.构造器名必须与它所在的类名必须相同
+2.它没有返回值，所以不需要返回值类型，也不需要void。
+3.构造器的修饰符只能是权限修饰符，不能被其他任何修饰。比如，
+不能被static、final、synchronized、abstract、native
+修饰符，不能有return语句返回值
+
+使用说明：
+1.当我们没有显示的声明类中的构造器时，系统会默认提供一个无参构造器的修饰符默认与同类的修饰符相同
+2.当我们显示的定义类的构造器之后，系统就不再提供默认的无参构造了。
+3.在类中，至少会存在一个构造器
+4.构造器是可以重载
+
+JavaBean
+JavaBean本质上是一个遵循特定编码规范的普通java类。它主要用于封装数据，Java EE 开发
+(如Spring MVC 接受参数、MyBatis映射结果等)中极为罕见。
+1.核心组成要素
+- 私有属性(Private Fields)
+        · 类的内部必须使用private修饰，以实现封装。
+- 无参构造器(No-Argument Constructor)
+        · 必须提供一个public的无参构造器
+        · 原因：很多框架(如 Spring、Hibernate、Jackson等)在底层通过java反射机
+          制(Class.newInstance()或类似方法)动态创建对象时，强依赖于无参构造器
+- Getter和Setter方法(Accessor and Mutators)
+        · 提供public的getter和身setter方法来暴露对私有属性的读写操作。
+        · 命名规范：
+            · 普通属性：getXxx() / setXxx()
+            · 布尔类型属性：isXxx() / setXxx()
+- 实现Serializable接口（可选但推荐）
+        · 通常建议实现java.io.Serializable接口。
+        · 原因：JavaBean 经常需要被传输（如网络请求、RPC）或持久化（如存入
+            Redis、写入文件），实现该接口可使其具备序列化能力。

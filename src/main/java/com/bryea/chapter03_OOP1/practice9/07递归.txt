@@ -1,0 +1,16 @@
+递归方法的调用：方法自己调用自己的现象就称为递归。
+递归的分类：直接递归、间接递归。
+ - 直接递归：方法自身调用自己。
+   public void methodA(){
+   methodA();
+     }
+ - 间接递归：可以理解为A()方法调用B()方法，B()方法调用C()方法，C()方法调用A()方法。
+ public static void A(){
+    B()
+ }
+  public static void B(){
+     C()
+  }
+   public static void C(){
+      A()
+   }
