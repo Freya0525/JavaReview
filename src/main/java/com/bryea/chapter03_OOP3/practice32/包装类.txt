@@ -1,0 +1,78 @@
+1.包装类
+1.基本概念
+包装类就是把基本数据类型包装成对象类型，使其能够用于泛型、集合、允许 null，并提供类型转换等实用方法。
+
+八种基本数据类型与包装类
+基本数据类型          包装类          说明
+byte                 Byte          1字节整数
+short                Short         2字节整数
+int                  Integer       4字节整数
+long                 long          8字节整数
+float                Float         单精度小数
+double               Double        双精度小数
+boolean              Boolean       布尔值
+char                 Character     字符
+
+
+2.基本类型和包装类型有什么区别？
+int number=80;  //int是基本数据类型，number保存的是整数值，不能等于null，也不能直接调用对象方法
+integer wrapperNumber =80；//Integer是引用数据类型，Integer number =null;编译通过，可以等于null，
+                        也可以调用类或者对象相关的方法：
+                        比如：
+                        Integer number = 80;
+
+                        System.out.println(number.intValue());   // 80
+                        System.out.println(number.toString());   // "80"
+                        System.out.println(number.compareTo(90)); // -1
+
+可以理解为
+int : 单纯的整数值
+Integer : 把整数包装成一个对象类型
+
+3.为什么需要包装类？
+java并不是所有地方都能使用基本数据类型。有些功能只接受对象类型，因此需要包装类。
+
+（一）：集合只能保存对象类型
+例如：泛型不能写基本数据类型：
+ArrayList<int> number; //错误
+应该是：
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(10);
+numbers.add(20);
+numbers.add(30);
+这里集合声明的是Integer,但是我们添加的是int,java会自动把10从int转换成Integer
+
+(二)包装类可以表示null，但基本数据类型不可以。
+比如：
+int age = null;
+Integer age = null;
+在数据库、JSON、表单数据中，包装类很常见：
+    class User {
+    private Integer age;
+    }
+比如这种情况，如果用户没填写年龄age ==null，而基本数据类型值不能是null,
+还有，age ==0 ，如果使用int,那不知道这个0是默认值还是用户填的0。
+
+（三）包装类提供了实用方法
+例如把字符串转换为数字：
+String text = "80";
+int number = Integer.parseInt(text);
+
+4.装箱与拆箱
+基本类型和包装类之间可以相互转换。
+装箱：基本类型转换成包装类
+int number1 = 80;
+Integer wrapper = Integer.valueOf(number1);
+这个过程叫做装箱：int --Integer
+
+拆箱：包装类转换成基本类型
+Integer wrapper1 = Integer.valueOf(80);
+int number2 = wrapper.intValue();
+这个过程叫拆箱，Integer ---> int
+
+
+最需要掌握的四点是：
+int 对应 Integer，char 对应 Character。
+基本类型变成包装类叫装箱，包装类变成基本类型叫拆箱。
+包装类可能是 null，自动拆箱时可能出现 NullPointerException。
+比较包装类中的数值优先使用 equals()，不要依赖 ==。
