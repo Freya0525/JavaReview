@@ -120,3 +120,61 @@ System.out.println(time);
 它是抽象类，不能直接 new Calendar()，需要这样获取对象：
 Calendar calendar = Calendar.getInstance();
 
+## 5.SimpleDateFormat日期格式化类
+1.概述：这是一个日期格式化类。
+2.作用：可以将Date对象按照指定格式格式化成一个字符串。
+      还可以将符合指定格式的字符串转回Date对象
+3.创建：SimpleDateFormat(String pattern)
+                        pattern：传递的是我们自己指定的格式
+                                 比如：yyy-MM-dd HH:mm:ss
+4.方法：
+String format(Date date) 将Date对象按照指定的格式转成字符串
+Date parse(String time) 将符合日期格式的字符串转回Date对象
+
+
+## 6.1. LocalDate 本地日期
+### LocalDate
+1.概述：LocalDate 是 JDK 8 提供的新日期类，用来表示：年、月、日
+java.time.LocalDate;
+2.使用：
+1. 获取当前日期
+LocalDate date = LocalDate.now();
+
+System.out.println(date);
+输出类似：
+2026-09-18
+now() 是静态方法，直接通过类名调用：
+LocalDate.now()
+
+2. 创建指定日期
+   使用：
+   LocalDate.of(年, 月, 日)
+   例如：
+   LocalDate date = LocalDate.of(2030, 10, 1);
+
+System.out.println(date);
+
+
+3. 获取年月日
+LocalDate date = LocalDate.of(2030, 10, 1);
+
+常用方法：
+date.getYear();        // 获取年份
+date.getMonthValue();  // 获取月份数字
+date.getDayOfMonth();  // 获取当月第几天
+date.getDayOfYear();   // 获取当年第几天
+date.getDayOfWeek();   // 获取星期
+
+4. LocalDate 是不可变对象
+LocalDate date = LocalDate.of(2030, 10, 1);
+date.plusDays(3);
+System.out.println(date); // 仍然是2030-10-01
+plusDays() 不会修改原对象，而是返回一个新对象。
+正确写法：
+date = date.plusDays(3);
+System.out.println(date); // 2030-10-04
+这与 BigInteger、BigDecimal 类似：运算结果必须接收。
+
+### 1.2 LocalDateTime 对象
+LocalDateTime 用来表示： 年、月、日、时、分、秒
+它比 LocalDate 多了时间部分。

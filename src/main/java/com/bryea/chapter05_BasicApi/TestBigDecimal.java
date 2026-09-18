@@ -1,5 +1,7 @@
 package com.bryea.chapter05_BasicApi;
 
+import org.junit.Test;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
@@ -69,6 +71,14 @@ public class TestBigDecimal {
         0	前面等于后面
         正数（通常是 1）	前面大于后面
          */
+    }
+    @Test
+    public void test() {
+        BigDecimal a = new BigDecimal("10.0");
+        BigDecimal b = new BigDecimal("10.00");
+
+        System.out.println(a.equals(b));
+        System.out.println(a.compareTo(b));
     }
 }
 
