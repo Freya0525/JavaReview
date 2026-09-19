@@ -32,7 +32,7 @@ public class TestLocalDate {
         //2. 创建指定日期
         //使用LocalDate.of(年, 月, 日)
         LocalDate date  = LocalDate.of(2026, 6, 2);
-        System.out.println("date = " + date);
+        System.out.println("date = " + date);//date = 2026-06-02
 
         //3. 获取年月日
         int year = date.getYear();

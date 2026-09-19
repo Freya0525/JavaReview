@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc991f9b-a337-468b-9d68-0f5be9e10640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestLocalDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestLocalDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestSimpleDateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter06_StringAndStringBuilder/String.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter06_StringAndStringBuilder/TestString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestBigDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestBigDecimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/基础API.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/基础API.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestLocalDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter05_BasicApi/TestLocalDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bryea/chapter06_StringAndStringBuilder/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bryea/chapter06_StringAndStringBuilder/TestString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +131,7 @@
     "Application.com.atguigu.chapter03_OOP.practice21.TestPayment.executor": "Run",
     "Application.overloadTest.executor": "Run",
     "JUnit.TestBigDecimal.test.executor": "Run",
+    "JUnit.TestBigDecimal.test3.executor": "Run",
     "JUnit.TestCalendar.test1.executor": "Run",
     "JUnit.TestDateApi.test1.executor": "Run",
     "JUnit.TestDateApi.test2.executor": "Run",
@@ -149,6 +146,10 @@
     "JUnit.TestSingleton.test4.executor": "Run",
     "JUnit.TestSingleton.test6.executor": "Run",
     "JUnit.TestString.test.executor": "Run",
+    "JUnit.TestString.test2.executor": "Run",
+    "JUnit.TestString.test3.executor": "Run",
+    "JUnit.TestString.test4.executor": "Run",
+    "JUnit.TestString.test5.executor": "Run",
     "JUnit.com.atguigu.chapter03_OOP.oop.practice8 in JavaReview.executor": "Run",
     "JUnit.junitTest.testSomething.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -190,8 +191,8 @@
       <recent name="com.atguigu.chap02" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestString.test">
-    <configuration name="TestDateApi.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestString.test5">
+    <configuration name="TestBigDecimal.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
@@ -200,62 +201,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bryea.chapter05_BasicApi" />
-      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter05_BasicApi.TestDateApi" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter05_BasicApi.TestBigDecimal" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLocalDateTime.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bryea.chapter05_BasicApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bryea.chapter05_BasicApi" />
-      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter05_BasicApi.TestLocalDateTime" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalDate.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bryea.chapter05_BasicApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bryea.chapter05_BasicApi" />
-      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter05_BasicApi.TestLocalDate" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLocalDate.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaReview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bryea.chapter05_BasicApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bryea.chapter05_BasicApi" />
-      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter05_BasicApi.TestLocalDate" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestString.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestString.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaReview" />
       <extension name="coverage">
         <pattern>
@@ -265,7 +218,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bryea.chapter06_StringAndStringBuilder" />
       <option name="MAIN_CLASS_NAME" value="com.bryea.chapter06_StringAndStringBuilder.TestString" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestString.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bryea.chapter06_StringAndStringBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bryea.chapter06_StringAndStringBuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter06_StringAndStringBuilder.TestString" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestString.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bryea.chapter06_StringAndStringBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bryea.chapter06_StringAndStringBuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter06_StringAndStringBuilder.TestString" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestString.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaReview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bryea.chapter06_StringAndStringBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bryea.chapter06_StringAndStringBuilder" />
+      <option name="MAIN_CLASS_NAME" value="com.bryea.chapter06_StringAndStringBuilder.TestString" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestString.test" />
-        <item itemvalue="JUnit.TestLocalDateTime.test1" />
-        <item itemvalue="JUnit.TestLocalDate.test1" />
-        <item itemvalue="JUnit.TestLocalDate.test2" />
-        <item itemvalue="JUnit.TestDateApi.test2" />
+        <item itemvalue="JUnit.TestString.test5" />
+        <item itemvalue="JUnit.TestString.test4" />
+        <item itemvalue="JUnit.TestString.test3" />
+        <item itemvalue="JUnit.TestString.test2" />
+        <item itemvalue="JUnit.TestBigDecimal.test3" />
       </list>
     </recent_temporary>
   </component>

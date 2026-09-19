@@ -2,6 +2,7 @@ package com.bryea.chapter05_BasicApi;
 
 import org.junit.Test;
 
+import javax.lang.model.SourceVersion;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
@@ -79,6 +80,16 @@ public class TestBigDecimal {
 
         System.out.println(a.equals(b));
         System.out.println(a.compareTo(b));
+
+
+
+    }
+    @Test
+    public void test3() {
+        BigDecimal a = new BigDecimal("10");
+        BigDecimal b = new BigDecimal("3");
+        BigDecimal result = a.divide(b,2,RoundingMode.HALF_UP);
+        System.out.println("result = " + result);
     }
 }
 
